@@ -1,0 +1,9 @@
+@import "../../common/colors.scss";
+.status-loading,
+.status-err{
+    color: $primary-font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}

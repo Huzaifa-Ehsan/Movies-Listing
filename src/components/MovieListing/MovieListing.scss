@@ -1,0 +1,24 @@
+@import '../../common/colors.scss';
+
+.movies-err,
+.series.err{
+    color: $primary-font;
+}
+
+.movie-list,.series-list {
+    margin: 20px 0px;
+
+    h2 {
+        color: $secondary-font;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+
+
+// .movie-container, .series-container{
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//     // grid-template-columns: auto auto auto auto;
+//     grid-gap: 25px;
+// }
